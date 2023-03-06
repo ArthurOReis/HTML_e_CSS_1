@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box; /*Responsável por deixar todos os elementos dentro do body e não deixar nenhum ficar fora da tela*/
+    background-color: black;
+    color: #F6F6F6;
+}
+
+.titulo-destaque {
+    color: #22D4FD;
+}
+
+.apresentacao {
+    margin: 10%;
+    display: flex; /*Divide os elementos de uma classe em colunos*/
+    align-items: center; /*Alinha no centro em relação ao maior elemento*/
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 24px;
+}
